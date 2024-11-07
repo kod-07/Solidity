@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "gas",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exp2a.sol": "gasprice"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exp2a.sol": {
+			"keccak256": "0x4f52862f6330688eaf7dc80e7d2bb6adcb10fb13891d448bff66022d382dec54",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5af0530dddf2eaf7650576a64e968480c1949e36372e03a263dd9afdcb8607b6",
+				"dweb:/ipfs/QmVQQqanKvzxytjwWgu4gYQb76XoW4L9qYyAHdTVkXCsjN"
+			]
+		}
+	},
+	"version": 1
+}

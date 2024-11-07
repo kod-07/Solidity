@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Run",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "gaslimit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_gaslimit",
+						"type": "uint256"
+					}
+				],
+				"name": "setGasLimit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exp2b.sol": "GasLimitCheck"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exp2b.sol": {
+			"keccak256": "0xc03b46f1d478aa89a92cf101fdaccbb24e9d5f928ef69113a553265e490a220f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9cff51f8ab7a6e01ba8a33af98edb4aaa22b6f5bd09d2fb3baedd3ceb4f340f1",
+				"dweb:/ipfs/QmcxM7RSbKQSHC8iKB3WUoaU73PSPXi6DN4PcCWqBDQWj4"
+			]
+		}
+	},
+	"version": 1
+}

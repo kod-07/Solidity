@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "callPrivateFunction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/exp4d.sol": "PrivateExample"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/exp4d.sol": {
+			"keccak256": "0xf92aa38f072579b2bdbc60c3b6e713e9f3070431880cf7aeca285ed4cafb9d31",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7f90ce1133ad216ac5075fdc3d7ce11d4c5ceb36f9706bae1699fbb255dec9f7",
+				"dweb:/ipfs/QmVUPz1EPLQzHkgLkEijjGgSEaVT8s1o3HpvJyy7gz5UVs"
+			]
+		}
+	},
+	"version": 1
+}
